@@ -1,44 +1,23 @@
 <?php
 
+$numb0 = 1234;  // decimal nimber
+$numb1 = +143;  // decimal number
+$numb2 = -342;  // a negative number
+$numb3 = 0123;  // octal number
+$numb4 = 0x1A;  // hecsadecimal number
+
+echo $numb4;
+
+$var = 1.123;
+echo $var;
+
+$str = "Hello, world";
+$str1 = 'Some text';
+
+echo $str;
+echo $str1;
 
 
-
-$name = "Andrei";
-$number = 3.14;
-
-$some = $second = $num_one = 1;
-
-echo $name;
-echo "<br>";
-$name = 33424;
-echo $name;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-echo "<br>";
-include 'second.php';
-echo "<br>";
-echo "Some text\n";
-echo "<br>";
-echo $_SERVER['HTTP_USER_AGENT'];
-// you can use same of the comand exp include or require
-// with require if the usees file not exit then that programm stack and
-// not execute
-// in use case with include program can execute without included file.*/
+$some;
+echo $some;
 ?>
