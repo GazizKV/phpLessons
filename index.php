@@ -1,23 +1,25 @@
 <?php
 
-$numb0 = 1234;  // decimal nimber
-$numb1 = +143;  // decimal number
-$numb2 = -342;  // a negative number
-$numb3 = 0123;  // octal number
-$numb4 = 0x1A;  // hecsadecimal number
+$a = "";
+$b = 3;
+$c = "asd";
+echo isset($a, $b, $c);
 
-echo $numb4;
+$one = 1;
+$two = "two";
+$three = "";
+$four = "0";
+$five = 0.333;
+$seven = 4444;
+$eight = true;
+$nine = false;
+$ten = null;
+echo "<br>";
+$larg_number = 2345432526;
+var_dump($larg_number);
 
-$var = 1.123;
-echo $var;
-
-$str = "Hello, world";
-$str1 = 'Some text';
-
-echo $str;
-echo $str1;
 
 
-$some;
-echo $some;
+
+
 ?>
