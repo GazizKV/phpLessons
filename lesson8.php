@@ -38,9 +38,5 @@ PHP__EOL  \n  \r\n
 echo "files name " . __FILE__ . "\n";
 echo "<br>";
 echo __DIR__;
-echo "<br>";
-echo PHP_VERSION;
-echo "<br>";
-echo PHP_WINDOWS_EVENT_CTRL_C;
 
 ?>
