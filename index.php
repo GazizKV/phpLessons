@@ -1,24 +1,17 @@
 <?php
 
+$str1 = "It is good to learn ";
+$str2 = "PHP";
+$num = 123;
 
+$str = $str1 . $str2;
 
-echo "this index.php" . "<br>";
-
-// const of class
-class ConstantClass{
-	const NAME="const";
-}
-//echo ConstantClass::NAME;
+echo $str;
 echo "<hr>";
-
-if(defined('ConstantClass::NAME')){
-	echo 'const if define <br>';
-}
-else
-{
-	echo ' const not define';
-}
-
-
+echo 5/3;
+echo "<br>";
+echo (int)(5/3);
+echo "<br>";
+echo 5%3;
 
 ?>
